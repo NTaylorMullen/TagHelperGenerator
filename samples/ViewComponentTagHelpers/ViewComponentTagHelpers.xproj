@@ -6,14 +6,17 @@
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>62b4b7d3-4782-4ce8-bc9a-5bcb95a5574f</ProjectGuid>
-    <RootNamespace>TagHelperGenerator</RootNamespace>
+    <ProjectGuid>03edcdd0-d03e-42bb-9fca-b92f9ed4385b</ProjectGuid>
+    <RootNamespace>ViewComponentTagHelpers</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
   <PropertyGroup>
     <SchemaVersion>2.0</SchemaVersion>
+    <DevelopmentServerPort>62428</DevelopmentServerPort>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <ProduceOutputsOnBuild>True</ProduceOutputsOnBuild>
+  </PropertyGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>

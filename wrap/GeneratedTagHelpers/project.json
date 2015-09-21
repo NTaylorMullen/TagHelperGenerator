@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnx451": {
+      "bin": {
+        "assembly": "../../samples/ViewComponentTagHelpers/bin/GeneratedTagHelpers.dll"
+      }
+    }
+  }
+}
