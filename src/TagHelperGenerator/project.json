@@ -1,0 +1,16 @@
+﻿{
+  "version": "1.0.0-alpha-*",
+  "description": "A utility used to generate TagHelper proxies for your ViewComponents.",
+  "authors": [ "NTaylorMullen" ],
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "TagHelperGenerator": "TagHelperGenerator"
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}
