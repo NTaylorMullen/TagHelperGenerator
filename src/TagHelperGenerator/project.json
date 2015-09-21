@@ -4,6 +4,8 @@
   "authors": [ "NTaylorMullen" ],
 
   "dependencies": {
+    "Microsoft.AspNet.Mvc.ViewFeatures": "6.0.0-*",
+    "Microsoft.AspNet.Razor.Runtime": "4.0.0-*"
   },
 
   "commands": {
